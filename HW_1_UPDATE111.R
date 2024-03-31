@@ -1,5 +1,5 @@
 library(ggplot2)
-subdata <- read.csv("/Users/huangjiahui/Desktop/subscription+dummpy.csv", header = TRUE)
+subdata <- read.csv("/Users/HRUTHIK/Desktop/subscription+dummpy.csv", header = TRUE)
 subdata
 
 null <- lm(tot_call~1, data = subdata)
